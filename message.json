@@ -1,0 +1,37 @@
+{
+    "mouseover": [
+        {
+            "selector": ".search-put",
+            "text": ["在找什麼嗎？"]
+        },
+        {
+            "selector": "#to-top",
+            "text": ["要回到最上嗎？"]
+        },
+        {
+            "selector": ".login-enter .login",
+            "text": ["要下載素材一定要登錄啦！"]
+        },
+        {
+            "selector": ".nav-box-vip .VIP-li",
+            "text": ["成為VIP才能享受正版！"]
+        },
+        {
+            "selector": ".Rig-service",
+            "text": ["有什麼問題可以諮詢客服哦"]
+        },
+        {
+        	"selector": "#landlord",
+            "text": ""
+        }
+    ],
+    "click": [
+        {
+            "selector": "#landlord #live2d",
+				 "text": [
+				"我们目前已经有150万正版素材内容了哦",
+				"图片、插画、PPT、海报、视频、手机配图等应有尽有，快来下载吧"
+				]
+        }
+    ]
+}

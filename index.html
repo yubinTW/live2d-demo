@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live2d Demo</title>
+    <link rel="stylesheet" href="css/live2d.css" />
+    <style>
+        #landlord {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -98px;
+            margin-left: -80px;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque recusandae, voluptas temporibus adipisci eius, odio eos accusantium facere culpa hic cupiditate. Reprehenderit blanditiis animi rem, doloremque dicta mollitia eaque. Saepe?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, qui voluptas. Neque rerum quas ipsa nesciunt veritatis aut in facere eius. Provident doloremque voluptatum vero deleniti tempora explicabo velit maxime.</p>
+    <p>Molestiae odio ducimus numquam? Earum, tempora optio totam incidunt molestias, aspernatur quia illo quae corrupti fugit iusto. Sunt, nulla. Voluptate magni ad rerum nostrum ullam incidunt sed harum tempora nihil?</p>
+    <p>Dolorem accusamus ex, maiores quidem dolores totam. Iusto qui debitis accusantium tempora molestias nesciunt! Quidem deserunt a, iure praesentium aut enim molestias rerum, magnam sint, voluptatem non laudantium fuga! Natus?</p>
+    <p>In accusamus, suscipit dicta fuga rem exercitationem deserunt error voluptate quae quis animi. Quod quasi id dolorum est natus. Nostrum ratione provident, magni alias dolorum pariatur numquam voluptas dolor perferendis.</p>
+    <p>Incidunt quae repudiandae quam officiis tempora! Illo culpa sed impedit animi nobis delectus suscipit, maiores nihil labore voluptate amet quas omnis, nulla possimus explicabo recusandae, non sequi? Unde, rem delectus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus explicabo dolorum, inventore nobis id repellendus nihil unde totam quaerat, ex blanditiis quisquam doloremque? Amet molestias sequi exercitationem saepe commodi omnis.</p>
+    <p>Fugit unde rerum hic ipsa iusto molestias nisi tempora, laboriosam praesentium, dolor reprehenderit, ullam earum voluptas beatae ad. Excepturi laboriosam, ut placeat similique necessitatibus possimus culpa reprehenderit adipisci ullam minus!</p>
+    <p>Ex explicabo autem ipsa alias amet quae iste aliquam tempore ut impedit quo adipisci nisi ducimus, aspernatur pariatur vitae! Labore, dicta quasi fugiat reiciendis corporis aut libero amet eum doloremque.</p>
+    <p>Voluptatibus aliquam omnis eum quo sit. Nihil nesciunt illum dignissimos, iure magni, architecto tempore voluptates excepturi laborum nostrum repellendus voluptate, quas optio placeat minus animi accusamus! Vel tenetur omnis sequi.</p>
+    <p>Tenetur velit blanditiis voluptate fuga? Quisquam nulla eveniet quidem nemo dolore facilis quos officiis consequuntur reiciendis delectus eaque debitis quaerat aut quia doloribus non hic, earum eligendi libero inventore iure!</p>
+    <div id="landlord" style="display: block;">
+        <span class="landlord-close iconfont icon-guanbi" onclick="$('#landlord').hide();$('#flost-landlord').show();">X</span>
+    <div class="message" style="opacity: 1;">hello</div>
+    <canvas id="live2d" width="160" height="192" class="live2d"></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/live2d.js"></script>
+    <script async src="js/message.js"></script>
+    <script type="text/javascript">
+        loadlive2d("live2d", "model.json");
+    </script>
+
+</body>
+</html>
